@@ -1,0 +1,4 @@
+<!--pages/details/detail.wxml-->
+<view wx:for='{{contents}}' wx:key='*this' bindtap='onTapNaviBack'>
+  <view>{{item.text}}</view>
+</view>

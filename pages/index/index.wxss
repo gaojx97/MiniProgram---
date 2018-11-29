@@ -1,0 +1,120 @@
+.title{
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  background-color: rgb(135, 182, 235);
+  padding-top: 150rpx；
+  
+ }
+
+.chunk{
+  width: 20rpx;
+}
+
+.app_name{
+  padding-top: 75rpx;
+  color: whitesmoke;
+  font-size: 35rpx;
+  margin-left: 15rpx;
+  padding-bottom: 10rpx;
+}
+
+.news-wrapper{
+  display: flex;
+  background-color: rgb(135, 182, 235);
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navi-type{
+  color: whitesmoke;
+  font-size: 35rpx;
+  padding-top: 25rpx;
+  padding-bottom: 35rpx;
+}
+
+.choose-type{
+  color: white;
+  font-size: 40rpx;
+  padding-top: 25rpx;
+  padding-bottom: 35rpx;
+}
+
+.main-block{
+  position: relative;
+  width: 750rpx;
+  height: auto;
+}
+
+.main-block .news-right image{
+  width:100%;
+  max-height: 100%;
+}
+
+.main-block .news-left .news-title{
+  position: absolute;
+  font-size: 20px;
+  bottom: 50rpx;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  padding: 10rpx 20rpx 40rpx;
+}
+
+.main-block .news-left .news-source{
+  position: absolute;
+  font-size: 13px;
+  bottom: 18rpx;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10rpx 50rpx 15rpx;
+}
+
+.main-block .news-right{
+  width: 750rpx;
+}
+
+.sub-block{
+  display: flex;
+  padding-top: 0rpx;
+  height: 220rpx;
+  border-bottom: 1rpx solid rgba(0, 0, 0, 0.3);
+  margin: 40rpx;
+  justify-content: space-between;
+}
+
+.sub-block .news-right{
+  height: 200rpx;
+  width: 250rpx;
+}
+
+.sub-block .news-right image{
+  height: 100%;
+  background-color: black;
+  width:250rpx;
+}
+
+.sub-block .news-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub-block .news-title{
+  display: flex;
+  border: 3rpx #fff solid;
+  padding-top: 15rpx;
+  padding-right: 20rpx;
+  font-size: 15px;
+  height: auto;
+}
+
+.sub-block .news-source{
+  display: flex;
+  border: 3rpx #fff solid;
+  align-self: flex-start;
+  height: 14;
+  background-color: white;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.3);
+  padding-bottom: 20rpx;
+  padding-left: 35rpx;
+}

@@ -1,0 +1,21 @@
+<view class='title'>
+  <view class='chunk'></view>
+  <image style="width: 30px; height: 30px; background-color: #eeeeee;" mode="aspectFill" src='/images/main_icon.png' class='app-icon'></image>
+  <view class='app_name'>Mojerro</view>
+</view>
+
+<view class='news-wrapper' >
+      <view class="{{index==idx?'choose-type':'navi-type'}}" data-index="{{index}}" wx:for="{{navigate}}" wx:key="*this" bindtap='onTapNewsType'>{{item.type}}</view>
+</view>
+
+<scroll-view>
+  <view id='{{item.id}}' class='sub-block' class="{{index==0?'main-block':'sub-block'}}" wx:for='{{newsList}}' wx:key='*this' bindtap='onTapNewsContent'>
+    <view class='news-left'>
+      <view class='news-title'>{{item.title}}</view>
+      <view class='news-source'>{{item.source}}</view>
+    </view>
+    <view class='news-right'>
+      <image class='firstImage' src='{{item.firstImage}}'></image>
+    </view>
+  </view>
+</scroll-view>
